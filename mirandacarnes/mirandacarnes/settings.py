@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'mirandacarnes.urls'
+ROOT_URLCONF = 'mirandacarnes.mirandacarnes.urls'
 
 TEMPLATES = [
     {
