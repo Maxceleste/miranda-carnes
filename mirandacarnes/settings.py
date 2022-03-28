@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = config('ROOT_URLCONF')
+ROOT_URLCONF = 'mirandacarnes.urls'
 
 TEMPLATES = [
     {
