@@ -1,1 +1,1 @@
-web: gunicorn mirandacarnes.mirandacarnes.wsgi --log-file -
+web: gunicorn --pythonpath mirandacarnes/src mirandacarnes.wsgi
